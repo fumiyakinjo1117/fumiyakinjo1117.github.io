@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WELCOME TO NAGO CITY</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    ​
+    <!-- BootstrapのJS読み込み -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <!-- jQuery読み込み -->
+    <link href="js/slick-theme.css" rel="stylesheet" type="text/css">
+    <link href="js/slick.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+  </head>
+  <body>
+    <header>
+     <nav class="nav">
+        <a class="nav-link active text-white"  href="#introduction">このサイトを作った人</a>
+        <!-- <a class="nav-link text-white" href="#recommends">オススメの場所</a> -->
+        <a class="nav-link text-white" href="#contact-page">お問い合わせ</a>
+     </nav>
+     <!-- <a class="menu-icon"><span class="fa fa-bars"></span></a> -->
+    </header>
+    <div class="cover text-center text-white">
+      <h1 class="main-title display-4 ">Welcome to Nago city</h1>
+      <p>〜あけみおのまち〜</p>
+
+    </div>
+
+      <section id="self-introduction" class="py-5 bg-light">
+        <div class="section-title">
+          <h2 class="text-center"id="main-title">〜自己紹介〜</h2>
+        </div>
+        <!-- containerとrowは一緒にしたらあかんs -->
+        <div class="container">
+          <div class="row">
+              <div class=" text-center col-sm-8 order-2 w-100%">
+                <br>
+                  <h3  id="introduction">このサイトを作った人</h3>
+                  <p>名護市在住の名桜大学３年生、金城史弥（きんじょうふみや）です。<br>
+                    今年で22歳になります。大学ではダンスサークルに所属しています。<br>
+                    趣味は写真を撮ることです。これから私が名護市のことや、好きな場所を紹介します。</p>
+              </div>
+              <div class="col-sm-4 order-1 ">
+                  <img src="img/image01.JPG" alt="" class="myface img-fluid rounded-circle">
+              </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- <div class="recommend">
+        <p class="text-center py-4">名護市のオススメの場所</p>
+
+        <ul class="slider">
+          <li><a href="#"><img src="img/image02.jpeg" alt=""></a></li>
+          <li><a href="#"><img src="img/images03.jpeg" alt=""></a></li>
+          <li><a href="#"><img src="img/images04.jpeg" alt=""></a></li>
+          <li><a href="#"><img src="img/images05.jpeg" alt=""></a></li>
+        </ul>
+
+
+
+      </div> -->
+      <div id="contact" class="contact-section gray-section">
+        <div class="contact-ection-inner">
+          <div class="container">
+            <div class="section-title">
+                  <h3 id="contact-page" class="text-center my-5">お問い合わせ</h3>
+             </div>
+            <div class="row">
+                <div class="contact-form col-sm-6">
+
+                  <h4 class="text-center pb-4">メッセージを送る</h4>
+                  <form>
+                    <div class="error-message"></div>
+                    <input type="text" name="name" placeholder="お名前" class="contact-name">
+                    <div class="error-message"></div>
+                    <input type="text" name="email" placeholder="メールアドレス" class="contact-email">
+                    <div class="error-message"></div>
+                    <textarea name="message" placeholder="メッセージ内容"></textarea>
+                    <br>
+                    <button type="submit" class="btn btn-contact center-block">送信</button>
+                  </form>
+                </div>
+                <div class="contact-about col-sm-6">
+                    <h4 class="text-center mb-4" id="recommends">About Me</h4>
+                    <p>大学では観光産業を専攻しています。名護市のことについて質問、お問い合わせがある方は、下記までご連絡ください。<br>
+                    返信が遅いので、急いでいる方はお電話でよろしくお願いします。</p>
+                    <h4 class="text-center">Address</h4>
+                    <p class="text-center">
+                      <i class="fa fa-map-marker">沖縄県　名護市　○◯○○○◯○○○◯○○</i>
+                    </p>
+                    <p class="text-center">
+                      <i class="fa fa-phone">○◯○-○○◯○-○○◯○</i>
+                    </p>
+
+                </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </body>
+</html>
